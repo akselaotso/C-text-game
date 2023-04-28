@@ -14,10 +14,10 @@ Creates a new character with the specified stats.
 H <attacker> <target>
 ```
 Attacks a character, the attacker recieves XP equal to the damage dealt. Prints out the following:
->Bilbo attacked Smeagol with Dagger by 6 damage.
->Smeagol has 8 hit points remaining.
->Bilbo gained 6 experience points.
->SUCCESS
+_Bilbo attacked Smeagol with Dagger by 6 damage.
+Smeagol has 8 hit points remaining.
+Bilbo gained 6 experience points.
+SUCCESS_
 
 A character dies if their healthpoints reach 0.
 
@@ -25,9 +25,9 @@ A character dies if their healthpoints reach 0.
 L
 ```
 Prints the current gamestate in format "<name> <hit-points> <experience> <weapon-name> <weapon-damage>\n", for example
->Bilbo 12 6 Dagger 6
->Bilbo 12 6 Dagger 6
->SUCCESS
+_Bilbo 12 6 Dagger 6
+Bilbo 12 6 Dagger 6
+SUCCESS_
 
 ```
 W <filename>
